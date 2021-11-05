@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* layer base untuk aturan awal tiap tag html  */
+@layer base {
+  /* kodingan anda disini yaa */
+}
+
+/* layer components berguna jika anda memiliki beberapa style yang sama pada setiap tag */
+@layer components {
+  /* kodingan anda disini yaa */
+}

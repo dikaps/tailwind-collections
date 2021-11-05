@@ -2,13 +2,8 @@
 
 ## List of Collections
 
-1. Clone this repository or download zip
-
-```bash
-git clone https://github.com/andikaPs/tailwind-collections.git
-```
-
-2. Buka `public/index.html` untuk melihat tampilan pertama
+- [Tailwind Button](https://github.com/andikaPs/tailwind-collections/tree/tailwind-btn)
+- [Login Page 1](https://github.com/andikaPs/tailwind-collections/tree/login-page-1)
 
 ## Dokumentasi untuk Tailwind
 

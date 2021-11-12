@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        body: "#FDFDFD",
+        nav: "#075e54",
+        title_chat: "#273443",
+        sub_title_chat: "#128c7e",
       },
     },
   },

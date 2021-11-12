@@ -16,46 +16,40 @@
     </style>
   </head>
   <body class="bg-body">
-    <div class="grid xl:grid-cols-3 grid-cols-1 h-screen">
-      <div class="overflow-hidden col-span-1 xl:block hidden" id="image"></div>
-      <div class="lg:col-span-2 flex items-center justify-center relative">
-        <div class="xl:w-1/2 sm:w-4/5 lg:w-1/2 w-4/5 flex flex-col">
+    <div class="grid grid-cols-1 h-screen xl:grid-cols-3">
+      <!-- image area -->
+      <div class="col-span-1 hidden overflow-hidden xl:block" id="image"></div>
+      <div class="flex items-center justify-center relative lg:col-span-2">
+        <div class="w-4/5 flex flex-col lg:w-1/2">
           <div class="mb-5">
             <h2 class="text-2xl text-gray-600 font-extrabold">Log in.</h2>
             <p class="mt-2 text-gray-400">Log in with your data that you entered during your registration</p>
           </div>
 
-          <form action="#" method="POST">
+          <form action="#" autocomplete="off">
             <div class="flex flex-col my-5">
               <label for="email" class="font-semibold mb-3 text-gray-500">Your e-mail</label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                class="bg-secondary-400 border-2 focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 outline-none rounded-md px-4 py-2"
-                placeholder="name@domain.com"
-                autofocus
-              />
+              <input type="text" name="email" id="email" class="border-2 focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 outline-none rounded-md px-4 py-2" placeholder="name@domain.com" />
             </div>
 
-            <div class="flex flex-col my-5">
+            <div class="flex flex-col mb-5">
               <div class="flex justify-between">
                 <label for="password" class="font-semibold mb-3 text-gray-500">Password</label>
 
-                <a href="lupa-password.html" class="text-gray-300 hover:text-gray-400 transition-colors">Forgot Password?</a>
+                <a href="#" class="text-gray-300 hover:text-gray-400 transition-colors">Forgot Password?</a>
               </div>
               <input
                 type="password"
                 name="password"
                 id="password"
-                class="bg-secondary-400 border-2 focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 outline-none rounded-md px-4 py-2"
+                class="border-2 focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 outline-none rounded-md px-4 py-2"
                 placeholder="at least 8 characters"
               />
             </div>
 
-            <button type="button" class="bg-blue-400 px-20 text-white py-3 rounded w-full font-semibold hover:bg-blue-500 transition-colors focus:ring-4">Log in</button>
+            <button type="submit" class="bg-blue-400 px-20 text-white py-3 rounded w-full font-semibold hover:bg-blue-500 transition-colors focus:ring-4">Log in</button>
           </form>
-          <span class="lg:absolute text-center font-normal my-3 xl:my-0 top-10 right-40 text-gray-400"
+          <span class="text-center font-normal my-3 text-gray-400 lg:absolute xl:my-0 xl:top-10 xl:right-40"
             >Don't have an account? <a href="#" class="text-blue-500 font-bold tracking-wider">Sign up</a>.</span
           >
         </div>
